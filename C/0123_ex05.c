@@ -9,4 +9,13 @@ int fn(int n){
   }
   else{
     a = fn(n-1) + 1;
-    print fn
+    print("%d", a);
+    return a;
+  }
+}
+
+void main(){
+  fn(3);
+}
+
+// x
